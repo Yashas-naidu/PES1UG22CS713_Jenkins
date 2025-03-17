@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''
                 echo "Compiling PES1UG22CS713.cpp"
-                g++ PES1UG22CS713.cpp -o PES1UG22CS713
+                g++ PES1UG22CS700.cpp -o PES1UG22CS713
                 '''
             }
         }
